@@ -1,0 +1,28 @@
+h2 {
+    color: #3f51b5;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    border: 1px solid #3f51b5;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.appear {
+    opacity: 0;
+    transform: translateX(-100%);
+    transform: scale(0.1);
+}
+
+.appearActive {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0);
+    transition: all 500ms linear;
+}
